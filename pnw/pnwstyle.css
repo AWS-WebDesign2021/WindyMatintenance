@@ -57,6 +57,7 @@
     font-size: 15;
     margin bottom: 30px;
     padding: 10px;
+    border-radius: 15px;
   }
 
   .maincolumn {
@@ -71,6 +72,7 @@
     margin-top: 30px;
     margin bottom: 30px;
     padding: 10px;
+    border-radius: 15px;
   }
 
   .maincolumn2 {
@@ -85,6 +87,7 @@
     margin-top: 30px;
     margin bottom: 30px;
     padding: 10px;
+    border-radius: 15px;
   }
 
   .row {
@@ -100,25 +103,4 @@
 table, th, td {
   border: 2px solid #474747;
   border-collapse: collapse;
-}
-
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
-
-div.gallery:hover {
-  border: 1px solid #474747;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
 }
