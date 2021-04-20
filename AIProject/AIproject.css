@@ -110,6 +110,8 @@
   animation-name: test1;
   animation-duration: 3s;
 }
+
+/*This is the code for the boucing animation, it is used on most of the titles. */
 @keyframes test1 {
   0% {transform: scale(0.1);}
   10% {transform: scale(0.7);}
@@ -130,7 +132,7 @@
 
 }
 
-/*Thia div is used to define the animation that moves the picture back and forth, the picture is the background image. */
+/*Thia div is used to define the animation that moves the first picture back and forth, the picture is the background image. */
   .picmove {
     background-image: url('robot.png');
     width: 900px;
@@ -140,14 +142,14 @@
     position: relative;
   }
 
-/*This is the code for the picture move animation, it simply moves the image/div back and forth */
+/*This is the code for the first picture move animation, it simply moves the image/div back and forth */
 @keyframes picmove {
   0% {left: 0px;}
   50% {left: 280px;}
   100% {left: 0px;}
 }
 
-/*Thia div is used to define the animation that moves the picture back and forth, the picture is the background image. */
+/*Thia div is used to define the animation that moves the second picture back and forth, the picture is the background image. */
   .picmove2 {
     background-image: url('beePic.png');
     width: 900px;
@@ -157,7 +159,7 @@
     position: relative;
   }
 
-/*This is the code for the picture move animation, it simply moves the image/div back and forth */
+/*This is the code for the second picture move animation, it simply moves the image/div back and forth */
 @keyframes picmove2 {
   0% {left: 0px;}
   50% {left: 280px;}
