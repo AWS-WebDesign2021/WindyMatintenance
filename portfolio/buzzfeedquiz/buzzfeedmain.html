@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<!--This section changes the name of the web page in the tab itself, it also connects the page to the style sheet used. -->
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="buzzfeedstyles.css">
+    <title>Portfolio: Which Nail Style Is Best For You?</title>
+  </head>
+
+  <body>
+
+<!--This section creates the main title of the portfolio itself and the web page as a whole -->
+    <div class="porttitle">
+      <center> <h1>My Portfolio</h1>
+    </div>
+    <!-- This section creates smaller italicized text centered below the main title showing
+    the author of the post. It also rotates between colors indefinitely using an animation. -->
+        <div class="portani">
+          <center> <i> <h2> By Morgan Eby</h2> </i> </center>
+        </div>
+
+    <!-- This is the naviagation bar at the top, it simply takes around the Portfolio to all the different sections. -->
+        <div class="porttopnav">
+          <a href="../porthome.html">Home</a>
+          <a href="../portgallery.html">Gallery</a>
+          <a href="../portsource.html">Contact</a>
+        </div>
+
+    <br>
+<!--This div is used to separate the web page on the gallery from the portfolio itself, the entire original page is in here contained within a border. -->
+    <div class="embeded">
+
+<!-- This is the main title, it has a bouce animation and a GIF next to it -->
+ <center> <div class="title"> <h2>Which Nail Style is Best For You?</h2> </div> </center>
+ <img src="source.gif" width="150" height="150">
+
+<!-- This is the naviagation bar at the top, it simply takes you to the quiz and the resource page with all the links. -->
+    <div class="topnav">
+      <a href="./buzzfeedmain.html">Take The Quiz!</a>
+      <a href="./buzzfeedsources.html">Resources</a>
+    </div>
+
+<!-- This is the start of the main form that the quiz is in, it spans over multiple divs and has 6 questions. -->
+<form class="quiz" action="index.html" method="post">
+
+<!-- Each question has five options and is within its own div, the div's alternate color. This one is asking about how the user would spend a saturday. -->
+<div class="longcolumn1">
+
+  <label for="saturday"> <b>How would you spend a saturday?</b> </label>
+     <br>
+     <br>
+<!-- Each question is the radio style, and each of the five options has a picture connected to it, and specific id's -->
+     <label for="saturday"><img src="hiking.png" width="100" height="100"> Hiking</label>
+     <input id="hiking" type="radio" name="saturday">
+
+     <label for="saturday"><img src="reading.png" width="100" height="100"> Reading</label>
+     <input id="reading" type="radio" name="saturday">
+
+     <label for="saturday"><img src="crafts.png" width="100" height="100"> Crafting</label>
+     <input id="crafts" type="radio" name="saturday">
+
+     <label for="saturday"><img src="party.png" width="100" height="100"> Going to a party</label>
+     <input id="party" type="radio" name="saturday">
+
+     <label for="saturday"><img src="friends.png" width="100" height="100"> Hanging with friends</label>
+     <input id="friends" type="radio" name="saturday">
+     <br>
+</div>
+
+<!-- Each question has five options and is within its own div, the div's alternate color. This one is asking about the users favorite season. -->
+<div class="longcolumn2">
+  <label for="season"> <b>What is your favorite season?</b> </label>
+    <br>
+     <br>
+     <!-- Each question is the radio style, and each of the five options has a picture connected to it, and specific id's -->
+     <label for="season"><img src="fall.png" width="100" height="100">  Fall</label>
+     <input id="fall" type="radio" name="season">
+
+     <label for="saturday"><img src="winter.png" width="100" height="100">  Winter</label>
+     <input id="winter" type="radio" name="season">
+
+     <label for="saturday"><img src="spring.png" width="100" height="100">  Spring</label>
+     <input id="spring" type="radio" name="season">
+
+     <label for="saturday"><img src="summer.png" width="100" height="100"> Summer</label>
+     <input id="summer" type="radio" name="season">
+
+</div>
+
+<!-- Each question has five options and is within its own div, the div's alternate color. This one is asking about the users favorite drink. -->
+<div class="longcolumn1">
+  <label for="drink"> <b>What is your favorite drink?</b> </label>
+    <br>
+     <br>
+     <!-- Each question is the radio style, and each of the five options has a picture connected to it, and specific id's -->
+     <label for="drink"><img src="water.png" width="100" height="100"> Water</label>
+     <input id="water" type="radio" name="drink">
+
+     <label for="drink"><img src="tea.png" width="100" height="100"> Tea</label>
+     <input id="tea" type="radio" name="drink">
+
+     <label for="drink"><img src="sparkling.png" width="100" height="100"> Sparkling Water</label>
+     <input id="sparkling" type="radio" name="drink">
+
+     <label for="drink"><img src="soda.png" width="100" height="100"> Soda</label>
+     <input id="soda" type="radio" name="drink">
+
+     <label for="drink"><img src="lemonade.png" width="100" height="100"> Lemonade</label>
+     <input id="lemonade" type="radio" name="drink">
+</div>
+
+<!-- Each question has five options and is within its own div, the div's alternate color. This one is asking about the users favorite animal. -->
+<div class="longcolumn2">
+  <label for="animal"> <b>Which is your favorite animal?</b> </label>
+     <br>
+     <br>
+     <!-- Each question is the radio style, and each of the five options has a picture connected to it, and specific id's -->
+     <label for="animal"><img src="deer.png" width="100" height="100"> A deer</label>
+     <input id="deer" type="radio" name="animal">
+
+     <label for="animal"><img src="cat.png" width="100" height="100"> A cat</label>
+     <input id="cat" type="radio" name="animal">
+
+     <label for="animal"><img src="butterfly.png" width="100" height="100"> A butterfly</label>
+     <input id="butterfly" type="radio" name="animal">
+
+     <label for="animal"><img src="parot.png" width="100" height="100"> A parrot</label>
+     <input id="parot" type="radio" name="animal">
+
+     <label for="animal"><img src="bunny.png" width="100" height="100"> A bunny</label>
+     <input id="bunny" type="radio" name="animal">
+</div>
+
+<!-- Each question has five options and is within its own div, the div's alternate color. This one is asking what the users favorite subject in school is.-->
+<div class="longcolumn1">
+  <label for="suject"> <b>Which is your favorite subject in school?</b> </label>
+     <br>
+     <br>
+     <!-- Each question is the radio style, and each of the five options has a picture connected to it, and specific id's -->
+     <label for="suject"><img src="science.png" width="100" height="100"> Science</label>
+     <input id="science" type="radio" name="suject">
+
+     <label for="suject"><img src="math.png" width="100" height="100"> Math</label>
+     <input id="math" type="radio" name="suject">
+
+     <label for="suject"><img src="art.png" width="100" height="100"> Art</label>
+     <input id="art" type="radio" name="suject">
+
+     <label for="suject"><img src="english.png" width="100" height="100"> English</label>
+     <input id="english" type="radio" name="suject">
+
+     <label for="suject"><img src="history.png" width="100" height="100"> History</label>
+     <input id="history" type="radio" name="suject">
+</div>
+
+<!-- Each question has five options and is within its own div, the div's alternate color. This one is asking the users favorite color. -->
+<div class="longcolumn2">
+  <label for="color"> <b>What is your favorite color?</b> </label>
+     <br>
+     <br>
+     <!-- Each question is the radio style, and each of the five options has a picture connected to it, and specific id's -->
+     <label for="color"><img src="green.png" width="100" height="100"> Green</label>
+     <input id="green" type="radio" name="color">
+
+     <label for="color"><img src="blue.png" width="100" height="100"> Blue</label>
+     <input id="blue" type="radio" name="color">
+
+     <label for="color"><img src="red.png" width="100" height="100"> Red</label>
+     <input id="red" type="radio" name="color">
+
+     <label for="color"><img src="pink.png" width="100" height="100"> Pink</label>
+     <input id="pink" type="radio" name="color">
+
+     <label for="color"><img src="yellow.png" width="100" height="100"> Yellow</label>
+     <input id="yellow" type="radio" name="color">
+
+<!-- This is the button to submit the form, it has java script functions connected that show the results from the quiz by calulating the score. -->
+     <input type="button" value="Submit" onclick="showInput();">
+</div>
+
+</form>
+
+<div class="longcolumn1">
+  <button type="button" name="again" id="again" onclick="window.location.reload();">Take the quiz again!</button>
+</div>
+
+<!-- This is the div that shows the results of the quiz, it only appears after the submit button is clicked. A span is used to change the inner html in java, and the picture below iblank purple but when submited will be changed to match the users input. -->
+<div class="results" id="results">
+  <h3>Your nail style is:</h3><h2><span id="style"> </span></h2>
+  <img src="purple.png" width="200" height="200" id="nails">
+</div>
+
+
+</div>
+<!-- This is where all the javascript is written, and all the funtions of the quiz are created. -->
+<script type="text/javascript">
+
+
+/* This funtion has the main quiz capibilites, it makes the results div appear and it calculates the point totals from the quiz, and shows the final picture and result. The section below changes the display of the results div, making it visible after the quiz is submited. */
+  function showInput() {
+    var r = document.getElementById('results');
+    r.style.display = "block";
+
+/* This very long section calculates the score based on each question option and adds specific point numbers based on the option, the next five are based on the first question. */
+    var score = 0;
+    if (document.getElementById("hiking").checked)
+    {
+      score = score + 1;
+    }
+
+    if (document.getElementById("reading").checked)
+    {
+
+      score = score + 2;
+    }
+
+    if (document.getElementById("crafts").checked)
+    {
+
+      score = score + 3;
+    }
+
+    if (document.getElementById("party").checked)
+    {
+
+      score = score + 4;
+    }
+
+    if (document.getElementById("friends").checked)
+    {
+
+      score = score + 5;
+    }
+
+/* This very long section calculates the score based on each question option and adds specific point numbers based on the option, the next four are based on the second question. */
+    if (document.getElementById("fall").checked)
+    {
+      score = score + 1;
+    }
+
+    if (document.getElementById("winter").checked)
+    {
+
+      score = score + 2;
+    }
+
+    if (document.getElementById("spring").checked)
+    {
+
+      score = score + 3;
+    }
+
+    if (document.getElementById("summer").checked)
+    {
+
+      score = score + 4;
+    }
+
+/* This very long section calculates the score based on each question option and adds specific point numbers based on the option, the next five are based on the third question. */
+    if (document.getElementById("water").checked)
+    {
+      score = score + 1;
+    }
+
+    if (document.getElementById("tea").checked)
+    {
+
+      score = score + 2;
+    }
+
+    if (document.getElementById("sparkling").checked)
+    {
+
+      score = score + 3;
+    }
+
+    if (document.getElementById("soda").checked)
+    {
+
+      score = score + 4;
+    }
+
+    if (document.getElementById("lemonade").checked)
+    {
+
+      score = score + 5;
+    }
+
+/* This very long section calculates the score based on each question option and adds specific point numbers based on the option, the next five are based on the fourth question. */
+    if (document.getElementById("deer").checked)
+    {
+      score = score + 1;
+    }
+
+    if (document.getElementById("cat").checked)
+    {
+
+      score = score + 2;
+    }
+
+    if (document.getElementById("butterfly").checked)
+    {
+
+      score = score + 3;
+    }
+
+    if (document.getElementById("parot").checked)
+    {
+
+      score = score + 4;
+    }
+
+    if (document.getElementById("bunny").checked)
+    {
+
+      score = score + 5;
+    }
+
+/* This very long section calculates the score based on each question option and adds specific point numbers based on the option, the next five are based on the fifth question. */
+    if (document.getElementById("science").checked)
+    {
+      score = score + 1;
+    }
+
+    if (document.getElementById("math").checked)
+    {
+
+      score = score + 2;
+    }
+
+    if (document.getElementById("art").checked)
+    {
+
+      score = score + 3;
+    }
+
+    if (document.getElementById("english").checked)
+    {
+
+      score = score + 4;
+    }
+
+    if (document.getElementById("history").checked)
+    {
+
+      score = score + 5;
+    }
+
+/* This very long section calculates the score based on each question option and adds specific point numbers based on the option, the next five are based on the sixth question. */
+    if (document.getElementById("green").checked)
+    {
+      score = score + 1;
+    }
+
+    if (document.getElementById("blue").checked)
+    {
+
+      score = score + 2;
+    }
+
+    if (document.getElementById("red").checked)
+    {
+
+      score = score + 3;
+    }
+
+    if (document.getElementById("pink").checked)
+    {
+
+      score = score + 4;
+    }
+
+    if (document.getElementById("yellow").checked)
+    {
+
+      score = score + 5;
+    }
+
+/* This section uses the scores calculated to show the final result of the quiz. Each "if" has a range of scores that it applies to, and each one changes the inner html and shows the text answer, and they change the picture to match the result of the quiz. */
+/* This if statment goes along with the first possible result, for when the score is below 12. The text and pictures are changed becuase of the score. */
+    if (score < 12) {
+        document.getElementById('style').innerHTML = "Short and Simple";
+        document.getElementById('nails').src = "shortandsimplepic.png";
+    }
+
+/* This if statment goes along with the second possible result, for when the score is above 12 and below 18. The text and pictures are changed becuase of the score. */
+    else if (score <= 18) {
+        document.getElementById('style').innerHTML = "Cool and Casual";
+        document.getElementById('nails').src = "coolandcasualpic.png";
+    }
+
+/* This if statment goes along with the third possible result, for when the score above 18 and below 24. The text and pictures are changed becuase of the score. */
+    else if (score <= 24) {
+        document.getElementById('style').innerHTML = "Fun and Artsy";
+        document.getElementById('nails').src = "funandartsypic.png";
+    }
+
+/* This if statment goes along with the fourth possible result, for when the score is above 24 and below 28. The text and pictures are changed becuase of the score. */
+    else if ( score <= 28) {
+        document.getElementById('style').innerHTML = "Loud and Sassy";
+        document.getElementById('nails').src = "loudandsassypic.png";
+    }
+
+/* This if statment goes along with the fifth possible result, for when the score is anything above the rest, which is a 29. The text and pictures are changed becuase of the score. */
+    else {
+        document.getElementById('style').innerHTML = "Bright and Poppy";
+        document.getElementById('nails').src = "brightandpoppypic.png";
+    }
+
+}
+
+</script>
+
+<!--This section contains the information reflecting on the web page included in
+the gallery section. It is a thin text column on the left side that matched the portfolio pages. -->
+<div class="portdesc">
+  <h3>About This Webpage </h3>
+<p>This web page is meant to be a fun Buzzfeed-style quiz that a user can fill out
+   to discover what nail style is best for them based on the questions that they answer.
+    Java Script was uses for the first time to have the quiz show a result based on the
+    information the user imputes. This web page also features an animated title that
+    bounces, and many images. This site is a lot like the pages that I can create
+    today, and it has more sophisticated elements. While creating this one I had
+    many difficulties in the code which was a big learning experience for me.
+    Looking back I could have take more time to space the questions and the images
+    properly, as well as the GIF logo. I hope that the user can have a fun time
+    interacting with this page and get a result on the quiz that they like, and
+    I believe it achieves that goal. </p>
+</div>
+
+  </body>
+</html>

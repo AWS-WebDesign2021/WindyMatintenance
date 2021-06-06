@@ -1,0 +1,243 @@
+/*This div is used to define the look of the smaller text below the title, more
+ importantly it is animated to rotate through different colors. */
+.portani {
+  font-family: "Times New Roman", Times, serif;
+  color: #3D5A80;
+  animation-name: color;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+/*This is the specifc code for the color animation, it switches the text color between three differnt shades of blue. */
+@keyframes color {
+  0%   {color: #3D5A80;}
+  40%  {color: #98C1D9;}
+  80%  {color: #293241;}
+}
+
+/*This style is used to separate the main webpage that was created from the rest
+of the portfolio, this is done with a border and sizing to keep it within a certain area. */
+.embeded {
+  width: 67%;
+  border-style: solid;
+  border-color: #3D5A80;
+  border-width: 3px;
+  float: right;
+}
+
+/*This section is used to define the look of the column where each portfolio
+entry is explained, it colors the section, gives it borders, font, and sizes it. */
+.portdesc {
+  width: 30%;
+  border-style: solid;
+  border-color: #3D5A80;
+  border-width: 3px;
+  background-color: #98C1D9;
+  color: #293241;
+  font-family: "Times New Roman", Times, serif;
+  float: left;
+  padding: 5px;
+}
+
+/*This creates the naviagation bar at the top of the webpage, from the portfolio
+ itself that lets users nagigate from the gallery to the other web pages. */
+.porttopnav {
+  background-color: #98C1D9;
+  overflow: hidden;
+}
+
+/*This section specifies the look of the text within the naviagtion bar of the
+portfolio, it mostly covers font and color (looks), and also aligns it in the right location. */
+.porttopnav a {
+  float: left;
+  display: block;
+  color: #3D5A80;
+  text-align: center;
+  background-color: #98C1D9;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  font-size: 15px;
+}
+
+/*This syyle is used to create the main title of the portfolio page itself, the
+margins, fonts, and colors and choosen here. */
+.porttitle {
+  color: #EE6C4D;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  margin-left: 26px;
+  margin-right: 26px;
+  margin-top: 26px;
+  margin bottom: 26px;
+  padding: 6px;
+}
+
+/* This style refers the look of the main portfolio navigation bar sections after being hovered
+over, the background color of the boxes is the main change. */
+.porttopnav a:hover {
+  background-color: #EE6C4D;
+  color: #293241;
+}
+
+
+/*The overall style for the navigation bar */
+.topnav {
+  background-color: #474747;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+/*This style defines the look of each link withing the nav bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  background-color: #474747;
+  font-family: "Verdana", sans serif;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+/*This is the hover function and style for the nav bar */
+.topnav a:hover {
+  background-color: #592d80;
+  color: #fff785;
+  border-radius: 6px;
+  }
+
+/*This style gives any sections known as body a specifc background color and font. */
+ .body {
+   background-color: #122c6e;
+   font-family: "Helvetica", sans serif;
+ }
+
+/*This is the main style used for all titles, it gives the text a larger font and a different color */
+ .title {
+     color: #592d80;
+     font-family: "Verdana", sans serif;
+     font-size: 17px;
+     margin-left: 30px;
+     margin-right: 30px;
+     margin-top: 30px;
+     margin bottom: 30px;
+     padding: 10px;
+   }
+
+/*This is the div created specifically for the transition on the title of AIprojectbad.html,
+ it is a normal title div with height, width, and transition. */
+   .transition {
+     width: 750px;
+     transition: 5s;
+     color: #592d80;
+     font-family: "Verdana", sans serif;
+     font-size: 17px;
+     margin-left: 30px;
+     margin-right: 30px;
+     margin-top: 30px;
+     margin bottom: 30px;
+     padding: 10px;
+     height: 120px;
+   }
+
+/*This is the hover funtion for the title transition above, this is what the title
+transforms into. It changes colors, sizes, and the corners round. */
+   .transition:hover {
+     width: 550px;
+     color: #fff785;
+     background-color: #592d80;
+     border-radius: 6px;
+     height: 120px;
+   }
+/*this is just the main style for the sections of text, it is identical to .mainrow2 except for placement */
+ .mainrow {
+   float: center;
+   width: 92%;
+   background-color: #d4d4d4;
+   color: #474747;
+   font-family: "Verdana", sans serif;
+   margin-left: 15px;
+   margin-right: 15px;
+   font-size: 15;
+   margin-top: 30px;
+   margin bottom: 30px;
+   padding: 15px;
+   border-radius: 5px;
+   border-style: solid;
+   border-color: #fff785;
+ }
+
+/*this is just the main style for the sections of text, it is identical to .mainrow except for placement */
+ .mainrow2 {
+   float: center;
+   width: 92%;
+   background-color: #d4d4d4;
+   color: #474747;
+   font-family: "Verdana", sans serif;
+   margin-left: 15px;
+   margin-right: 15px;
+   font-size: 15;
+   margin-top: 30px;
+   margin bottom: 30px;
+   padding: 15px;
+   border-radius: 5px;
+   border-style: solid;
+   border-color: #fff785;
+ }
+
+/*This div simply makes all <a> links the same color as the normal text, a dark grey color.  */
+ a {
+   color: #474747;
+ }
+
+ /*this is the animation for webpage title images other than Home!!wooo!*/
+ .title {
+  animation-name: test1;
+  animation-duration: 3s;
+}
+
+/*This is the code for the boucing animation, it is used on most of the titles. */
+@keyframes test1 {
+  0% {transform: scale(0.1);}
+  10% {transform: scale(0.7);}
+  20% {transform: scale(1.0);}
+  50% {transform: scale(1.5);}
+  100% {transform: scale(1.0);}
+}
+
+
+
+/*This div is used to define the animation that moves the first picture back and forth, the picture is the background image. */
+  .picmove {
+    background-image: url('robot3.png');
+    width: 450px;
+    height: 275px;
+    animation-name: picmove;
+    animation-duration: 6s;
+    position: relative;
+  }
+
+/*This is the code for the first picture move animation, it simply moves the image/div back and forth */
+@keyframes picmove {
+  0% {left: 0px;}
+  50% {left: 100px;}
+  100% {left: 0px;}
+}
+
+/*Thia div is used to define the animation that moves the second picture back and forth, the picture is the background image. */
+  .picmove2 {
+    background-image: url('beePic2.png');
+    width: 450px;
+    height: 275px;
+    animation-name: picmove;
+    animation-duration: 6s;
+    position: relative;
+  }
+
+/*This is the code for the second picture move animation, it simply moves the image/div back and forth */
+@keyframes picmove2 {
+  0% {left: 0px;}
+  50% {left: 100px;}
+  100% {left: 0px;}
+}

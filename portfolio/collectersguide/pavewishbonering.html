@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio: Ring Collection</title>
+  </head>
+
+  <style media="screen">
+    .homepage {
+      color: #fffdf0;
+      background-color: #a6e3d9;
+      font-family: "Verdana", sans serif;
+      margin-left: 60px;
+      margin-right: 60px;
+      border: 6px solid #fffdf0;
+    }
+  </style>
+
+<!-- This style is used to define the title portion,
+specfically giving it a larger font size than the other styles. -->
+<style media="screen">
+  .title {
+    color:#a6e3d9;
+    background-color: #fffdf0;
+    font-family: "Verdana", sans serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 33px;
+    margin-top: 30px;
+    margin bottom: 30px;
+    border: 6px solid #a6e3d9;
+  }
+</style>
+
+<!-- This style defines all normal filled section that uses the dark
+color as the background and the light color for the text. Most areas alternate between
+the dark-background section and the light-background section for visual purposes. -->
+<style media="screen">
+  .darkbackground {
+    color: #fffdf0;
+    background-color: #a6e3d9;
+    font-family: "Verdana", sans serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin bottom: 30px;
+    border: 6px solid #fffdf0;
+  }
+</style>
+
+<!-- This style defines all normal filled section that uses the light
+color as the background and the dark color for the text. Most areas alternate between
+the dark-background section and the light-background section for visual purposes. -->
+<style media="screen">
+  .lightbackground {
+    color: #a6e3d9;
+    background-color: #fffdf0;
+    font-family: "Verdana", sans serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin bottom: 30px;
+    border: 6px solid #a6e3d9;
+  }
+</style>
+
+<!--This style is used to separate the main webpage that was created from the rest
+of the portfolio, this is done with a border and sizing to keep it within a certain area.-->
+<style media="screen">
+  .embeded {
+    width: 67%;
+    border-style: solid;
+    border-color: #3D5A80;
+    border-width: 3px;
+    float: right;
+  }
+</style>
+
+<!--This section is used to define the look of the column where each portfolio
+entry is explained, it colors the section, gives it borders, font, and sizes it. -->
+<style media="screen">
+  .portdesc {
+    width: 30%;
+    border-style: solid;
+    border-color: #3D5A80;
+    border-width: 3px;
+    background-color: #98C1D9;
+    color: #293241;
+    font-family: "Times New Roman", Times, serif;
+    float: left;
+    padding: 5px;
+  }
+</style>
+
+
+<!--This creates the naviagation bar at the top of the webpage, from the portfolio
+ itself that lets users nagigate from the gallery to the other web pages. -->
+ <style>
+.porttopnav {
+  background-color: #98C1D9;
+  overflow: hidden;
+}
+</style>
+
+<style>
+/*This section specifies the look of the text within the naviagtion bar of the
+portfolio, it mostly covers font and color (looks), and also aligns it in the right location. */
+.porttopnav a {
+  float: left;
+  display: block;
+  color: #3D5A80;
+  text-align: center;
+  background-color: #98C1D9;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  font-size: 15px;
+}
+</style>
+
+<style>
+/*This syyle is used to create the main title of the portfolio page itself, the
+margins, fonts, and colors and choosen here. */
+.porttitle {
+  color: #EE6C4D;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  margin-left: 26px;
+  margin-right: 26px;
+  margin-top: 26px;
+  margin bottom: 26px;
+  padding: 6px;
+}
+</style>
+
+<style>
+/* This style refers the look of the main portfolio navigation bar sections after being hovered
+over, the background color of the boxes is the main change. */
+.porttopnav a:hover {
+  background-color: #EE6C4D;
+  color: #293241;
+}
+</style>
+
+<style>
+/*This div is used to define the look of the smaller text below the title, more
+ importantly it is animated to rotate through different colors. */
+.portani {
+  font-family: "Times New Roman", Times, serif;
+  color: #3D5A80;
+  animation-name: color;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+/*This is the specifc code for the color animation, it switches the text color between three differnt shades of blue. */
+@keyframes color {
+  0%   {color: #3D5A80;}
+  40%  {color: #98C1D9;}
+  80%  {color: #293241;}
+}
+
+</style>
+
+  <!--This section creates the main title of the portfolio itself and the web page as a whole -->
+<div class="porttitle">
+  <center> <h1>My Portfolio</h1>
+</div>
+<!-- This section creates smaller italicized text centered below the main title showing
+the author of the post. It also rotates between colors indefinitely using an animation. -->
+    <div class="portani">
+      <center> <i> <h2> By Morgan Eby</h2> </i> </center>
+    </div>
+
+<!-- This is the naviagation bar at the top, it simply takes around the Portfolio to all the different sections. -->
+    <div class="porttopnav">
+      <a href="../porthome.html">Home</a>
+      <a href="../portgallery.html">Gallery</a>
+      <a href="../portsource.html">Contact</a>
+    </div>
+
+  <br>
+
+<!--This div is used to separate the web page on the gallery from the portfolio itself, the entire original page is in here contained within a border. -->
+<div class="embeded">
+
+
+  <body>
+
+
+<!-- This section works as a way for the user to get back to the main collection
+webpage so that they are not stuck in one collection entry after clicking.
+It is right at the top so that it is easily accesible. -->
+<div id=homepage class="homepage">
+  <a href="./ringcollection.html"> Go Back to the Main Page! </a>
+</div>
+
+<br>
+
+<!-- This section shows the main title of the entry and ring,
+it is in a larger font and is a heading title so that it is distinct from the rest of the entry. -->
+<div class="title">
+   <h2> Pavé Wishbone Ring </h2>
+</div>
+
+<br>
+
+
+<!-- This section explains an overview of the ring,
+like where it is sold, a simple description. All information here is applicable
+to anyone interested in the ring. Some details about the ring's pros and cons may also be mentioned. -->
+<div id=overview class="darkbackground">
+  <img src="pavewishbonering.jpg" align="right" width="320" height="365">
+  <h2> Overview </h2>
+  <p> This unique sparkling ring is from Pandora. It is a wishbone shape,
+    it has an small dip on the center of the ring. When pared with other wishbone
+     rings from Pandora there is large creative stacking potential. It has cubic
+     zirconia stones all across the front wishbone section, I was a little disapointed
+      that the stones do not go around the entire band of the ring and are not as smooth
+       as the pavéd hearts ring, but it is not a large concern. The ring has no visible
+       tarnishing after a long time of constant wear.  </p>
+</div>
+
+<br>
+
+
+<!-- This section is used to explain the ring's place in my collection specfically,
+like how it is worn, when it was purchased, or other personal details that may
+ not be needed for the average consumer. -->
+<div id=incollection class="lightbackground">
+  <h2> Place in Collection </h2>
+  <p> I really enjoy this ring, the unique shape gives some interest to my collection.
+    It is stacked underneath the beaded ring on my right middle finger.  </p>
+</div>
+
+<br>
+
+<!-- This section simply includes the link to the website the ring was purchased from,
+ so that anyone can easily look at it themselves. These links are also
+ all grouped together on the sources section of the main page. -->
+<div id=access class="darkbackground">
+  <h2> Access This Ring! </h2>
+  <a href="https://us.pandora.net/en/jewelry/rings/sparkling-wishbone-ring/196316CZ.html?
+  cgid=rings#prefn1=size&prefv1=4.5%7C5&backsz=36&start=2&cgid=rings&productscount=87"> Click here! </a>
+</div>
+
+</div>
+
+<!--This section contains the information reflecting on the web page included in
+the gallery section. It is a thin text column on the left side that matched the portfolio pages. -->
+<div class="portdesc">
+  <h3>About This Webpage </h3>
+<p>This web pages was created to demonstrate the use of relative links and having multiple HTML files come together to be one web page. I choose to do this by creating a page that describes my ring collection. This was also one of my first times using CSS styles with distinct divisions and formatting. I tried out using borders, new fonts, and tables. It is a lot simpler than a web page I would make today and harder to navigate because there is no real navigation bar. Looking back something I would have done differently given those skills would be choosing colors that are easier to read. I also. Would have taken some more time to space the photos so that they look more organized. This web page does a good job at having multiple pages all with a cohesive style and meaning for being my first time trying to do that. </p>
+</div>
+
+  </body>
+</html>

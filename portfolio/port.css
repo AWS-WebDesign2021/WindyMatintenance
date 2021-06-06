@@ -1,0 +1,171 @@
+/*This div is used to define the look of the smaller text below the title, more
+ importantly it is animated to rotate through different colors. */
+.portani {
+  font-family: "Times New Roman", Times, serif;
+  color: #3D5A80;
+  animation-name: color;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+/*This is the specifc code for the color animation, it switches the text color
+between three differnt shades of blue. */
+@keyframes color {
+  0%   {color: #3D5A80;}
+  40%  {color: #98C1D9;}
+  80%  {color: #293241;}
+}
+
+/*This style is used to separate the main webpage that was created from the rest
+of the portfolio, this is done with a border and sizing to keep it within a certain area. */
+.embeded {
+  width: 67%;
+  border-style: solid;
+  border-color: #3D5A80;
+  border-width: 3px;
+  float: right;
+}
+
+/*This section is used to define the look of the column where each portfolio
+entry is explained, it colors the section, gives it borders, font, and sizes it. */
+.portdesc {
+  width: 30%;
+  border-style: solid;
+  border-color: #3D5A80;
+  border-width: 3px;
+  background-color: #98C1D9;
+  color: #293241;
+  font-family: "Times New Roman", Times, serif;
+  float: left;
+  padding: 5px;
+}
+
+/*This creates the naviagation bar at the top of the webpage, from the portfolio
+ itself that lets users nagigate from the gallery to the other web pages. */
+.porttopnav {
+  background-color: #98C1D9;
+  overflow: hidden;
+}
+
+/*This section specifies the look of the text within the naviagtion bar of the
+portfolio, it mostly covers font and color (looks), and also aligns it in the right location. */
+.porttopnav a {
+  float: left;
+  display: block;
+  color: #3D5A80;
+  text-align: center;
+  background-color: #98C1D9;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  font-size: 15px;
+}
+
+/*This syyle is used to create the main title of the portfolio page itself, the
+margins, fonts, and colors and choosen here. */
+.porttitle {
+  color: #EE6C4D;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  margin-left: 26px;
+  margin-right: 26px;
+  margin-top: 26px;
+  margin bottom: 26px;
+  padding: 6px;
+}
+
+/* This style refers the look of the main portfolio navigation bar sections after being hovered
+over, the background color of the boxes is the main change. */
+.porttopnav a:hover {
+  background-color: #EE6C4D;
+  color: #293241;
+}
+
+/*This section creates the spacing and borders of each image gallery entry. */
+.portgallery {
+  margin: 10px;
+  border: 3px solid #3D5A80;
+  float: left;
+  width: 22%;
+}
+
+/* This section makes it so the border of each image in the gallery changes color
+ when a user hovers over it. */
+.portgallery:hover {
+  border: 3px solid #293241;
+}
+
+/*This style creates the spacing of each image within its gallery entry. */
+.portgallery img {
+  width: 100%;
+  height: auto;
+}
+
+/*This is used to define the text below each image in the gallery, mainly its font and color. */
+.portimgdesc {
+  padding: 15px;
+  text-align: center;
+  background-color: #98C1D9;
+  color: #293241;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*This style is a simple section made for body text, it sits on the right side
+ of the page (where the embedded ones cna go) and has a border. */
+.portwords {
+  width: 67%;
+  border-style: solid;
+  border-color: #3D5A80;
+  border-width: 3px;
+  float: right;
+  color: #293241;
+  font-family: "Times New Roman", Times, serif;
+  float: right;
+  padding: 6px;
+}
+
+/*This section is used to create a thin column on the side of the page that has a
+background image, it is animated so that the background image roates between two photos. */
+.portimgani {
+  width: 30%;
+  border-style: solid;
+  border-color: #3D5A80;
+  border-width: 3px;
+  background-color: #98C1D9;
+  color: #293241;
+  font-family: "Times New Roman", Times, serif;
+  float: left;
+  padding: 5px;
+  background-image: url('mepic5.png');
+  animation-name: image;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+/*This is the animation that changes the background image of portimgani, the two photos rotate back and forth. */
+@keyframes image {
+  20%   {background-image: url('mepic5.png');}
+  60%  {background-image: url('bluedog2.png');}
+}
+
+/*This style is used for when the contact form is submitted, it is very similar to
+ portwords, as it is simply body text. It also has a light blue background, and the
+  display is none so that it appears after being clicked. */
+.portanswers {
+  width: 67%;
+  border-style: solid;
+  border-color: #3D5A80;
+  border-width: 3px;
+  float: right;
+  color: #293241;
+  font-family: "Times New Roman", Times, serif;
+  float: right;
+  padding: 6px;
+  background-color: #98C1D9;
+  display: none;
+}
+
+/*This style simply makes all the type 3 headings on the main portfolio pages
+(not on any of the internal web pages) have a red color. */
+h3 {
+  color: #EE6C4D;
+}

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio: CenturyLink - Worth it?</title>
+  </head>
+
+  <!--This style is used to separate the main webpage that was created from the rest
+  of the portfolio, this is done with a border and sizing to keep it within a certain area.-->
+  <style media="screen">
+    .embeded {
+      width: 67%;
+      border-style: solid;
+      border-color: #3D5A80;
+      border-width: 3px;
+      float: right;
+    }
+  </style>
+
+  <!--This section is used to define the look of the column where each portfolio
+  entry is explained, it colors the section, gives it borders, font, and sizes it. -->
+  <style media="screen">
+    .portdesc {
+      width: 30%;
+      border-style: solid;
+      border-color: #3D5A80;
+      border-width: 3px;
+      background-color: #98C1D9;
+      color: #293241;
+      font-family: "Times New Roman", Times, serif;
+      float: left;
+      padding: 5px;
+    }
+  </style>
+
+
+  <!--This creates the naviagation bar at the top of the webpage, from the portfolio
+   itself that lets users nagigate from the gallery to the other web pages. -->
+   <style>
+  .porttopnav {
+    background-color: #98C1D9;
+    overflow: hidden;
+  }
+  </style>
+
+  <style>
+  /*This section specifies the look of the text within the naviagtion bar of the
+  portfolio, it mostly covers font and color (looks), and also aligns it in the right location. */
+  .porttopnav a {
+    float: left;
+    display: block;
+    color: #3D5A80;
+    text-align: center;
+    background-color: #98C1D9;
+    font-family: "Times New Roman", Times, serif;
+    padding: 10px;
+    font-size: 15px;
+  }
+  </style>
+
+  <style>
+  /*This syyle is used to create the main title of the portfolio page itself, the
+  margins, fonts, and colors and choosen here. */
+  .porttitle {
+    color: #EE6C4D;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    margin-left: 26px;
+    margin-right: 26px;
+    margin-top: 26px;
+    margin bottom: 26px;
+    padding: 6px;
+  }
+  </style>
+
+  <style>
+  /* This style refers the look of the main portfolio navigation bar sections after being hovered
+  over, the background color of the boxes is the main change. */
+  .porttopnav a:hover {
+    background-color: #EE6C4D;
+    color: #293241;
+  }
+  </style>
+
+<style media="screen">
+/*This section defines the look of the main title of the page, the text has a
+large font size and different colors. */
+  .title {
+    color: #31376b;
+    background-color: #dbe8c8;
+    font-family: Helvetica Narrow, sans-serif;
+    text-shadow: 2px 2px 5px #898a96;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 30px;
+    border: 6px solid #31376b;
+    border-radius: 24px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+
+  }
+
+</style>
+
+<style media="screen">
+/*This area contains the main body text of the web page, simply with a light background and dark text. */
+  .lightbackground {
+    color: #31376b;
+    background-color: #dbe8c8;
+    font-family: Helvetica Narrow, sans-serif;
+    text-shadow: 2px 2px 5px #898a96;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border: 6px solid #31376b;
+    border-radius: 13px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+  }
+
+</style>
+
+<style media="screen">
+/*This section is used to make certain main body section have a dark background and light text. */
+  .darkbackground {
+    color: #dbe8c8;
+    background-color: #31376b;
+    font-family: Helvetica Narrow, sans-serif;
+    text-shadow: 2px 2px 5px black;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border: 6px solid #dbe8c8;
+    border-radius: 13px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+  }
+</style>
+
+<style media="screen">
+/*This style is used to define how the table (and its content) looks, it sets the color and size of borders.*/
+  table, th, td {
+    border: 3px solid #31376b;
+    border-collapse: collapse;
+  }
+</style>
+
+<style>
+/*This div is used to define the look of the smaller text below the title, more
+ importantly it is animated to rotate through different colors. */
+.portani {
+  font-family: "Times New Roman", Times, serif;
+  color: #3D5A80;
+  animation-name: color;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+/*This is the specifc code for the color animation, it switches the text color between three differnt shades of blue. */
+@keyframes color {
+  0%   {color: #3D5A80;}
+  40%  {color: #98C1D9;}
+  80%  {color: #293241;}
+}
+
+</style>
+
+<body>
+
+  <!--This section creates the main title of the portfolio itself and the web page as a whole -->
+<div class="porttitle">
+  <center> <h1>My Portfolio</h1>
+</div>
+<!-- This section creates smaller italicized text centered below the main title showing
+the author of the post. It also rotates between colors indefinitely using an animation. -->
+    <div class="portani">
+      <center> <i> <h2> By Morgan Eby</h2> </i> </center>
+    </div>
+
+<!-- This is the naviagation bar at the top, it simply takes around the Portfolio to all the different sections. -->
+    <div class="porttopnav">
+      <a href="../porthome.html">Home</a>
+      <a href="../portgallery.html">Gallery</a>
+      <a href="../portsource.html">Contact</a>
+    </div>
+
+<br>
+
+<!--This div is used to separate the web page on the gallery from the portfolio itself,
+the entire original page is in here contained within a border. -->
+<div class="embeded">
+
+<!-- This div gives the page a distinct title in large text, it is also a heading, the text also has a shadowed look. -->
+<div class="title">
+  <center> <h2>CenturyLink - Worth it?</h2> </center>
+</div>
+
+<br>
+
+<!--This section explains the background of century link in one of the main body text divs,
+ it has a dark background and light text. All the text has a shadowed look to it. -->
+<div id="about" class="darkbackground">
+  <h2>About</h2>
+  <p> CenturyLink, also known as Lumen Technologies is
+    an American internet service provider. It was founded under the name Oak
+    Ridge Telephone Company in the 1930s in Lousiana. It started as simply
+    a telephone company, and over the years grew by absorbing smaller telephone companies.
+     It changed its name to Century Telephone in the 1980s, but it was not until 2010 that Century
+      began selling internet service as a part of its merger with Embarq. Now, CenturyLink
+      is still headquartered in Lousisana and has become the fourth largest seller of both
+       DSL and Fiber internet in the United States.   </p>
+</div>
+
+<br>
+
+<!--This section explains specfic plans offered by century link in a table,
+ it has a light background and dark text. All the text has a shadowed look to it. -->
+<div id="plans" class="lightbackground">
+  <h2>Types of Internet Avalible</h2>
+
+  <table style="width:100%">
+    <tr>
+      <th>DSL</th>
+      <th>Fiber</th>
+      <th>Copper</th>
+    </tr>
+    <tr>
+      <td>DSL internet, meaning Digital Subscriber Line internet uses exsisting phone
+         lines and connections to provide access to consumers. This internet is not the
+          most modern or the fastest, but it is relatively inexpensive and works well for most familes.</td>
+      <td>Fiber internet, or Fiber Optic internet is some of the fastest internet avalible.
+         It can travel up to 70% the speed of light, but this does come at quite a high price.
+          Fiber Internet is far more expensive than average internet, but does show a significant
+          difference in speed if that is a priority. </td>
+      <td>Copper internet uses copper cables to send signals,
+        this type of internet is one of the most common, and one of the most relaible.
+         Copper internet is quite less expensive than types of internet such as fiber, and it is quite fast. </td>
+    </tr>
+
+    <tr>
+      <td>Within CenturyLink, DSL avaliblity in the Unites States is not the most
+         widespread, (see image under limatations) Places like California and New
+         York do not have access to CenturyLink. Even with limited access in specifc regions,
+         CenturyLink is still the 4th most common DSL provider in the US. </td>
+      <td>Fiber Internet provided by CenturyLink is limited to more populous areas. However CenturyLinks
+        fiber internet market is the 4th largest in the United States.</td>
+      <td>Copper internet is one of the main serivces provided by CenturyLink,
+        as it is very standard for many people. Copper internet through this brand is
+        still limited, but is avaible in over seven thousand zip codes. </td>
+    </tr>
+</table>
+
+<br>
+
+</div>
+
+<br>
+
+<!--This section explains the downsides of century link in one of the main body text divs,
+ it has a dark background and light text. All the text has a shadowed look to it. -->
+<div id="cons" class="darkbackground">
+    <img src="map.png" align="right" width="350" height="200">
+  <h2>Limitations of Century Link</h2>
+  <p>The largest significant downfall of CenturyLink is its geographical limataions,
+    it is only availble is thirty seven states. Large areas like California and the North
+     East are unable to get CenturyLink internet. CenturyLink however is still able to
+     be one of the most common and fastest ISPs avaible. </p>
+<br>
+<br>
+<br>
+
+<!-- This area is a description and link to an image used in this div, a map of where DSL internet is availble to Century Link users. -->
+  <p align="right"> The image above is a map of where DSL internet </p>
+    <p align="right"> is provided by Century Link. <a href="https://broadbandmap.fcc.gov/#/provider-detail?version=dec2019&direction=d&hoconums=130228">See full link here. </a> </p>
+</div>
+
+<br>
+
+<!-- This section hyper links all the web sites used as sources so the user can access them easily. It has a light background and dark text with a shadowed effect. -->
+<div id="sources" class="lightbackground"
+  <h2>Sources</h2>
+  <p> <a href="https://www.attinternetservice.com/resources/what-is-dsl-internet/"> https://www.attinternetservice.com/resources/what-is-dsl-internet/</a>
+<br>
+<br>
+      <a href="https://broadbandmap.fcc.gov/#/provider-detail?version=dec2019&direction=d&hoconums=130228"> https://broadbandmap.fcc.gov/#/provider-detail?version=dec2019&direction=d&hoconums=130228</a>
+<br>
+<br>
+      <a href="https://broadbandnow.com/CenturyLink"> https://broadbandnow.com/CenturyLink</a>
+<br>
+<br>
+      <a href="https://www.centurylinkquote.com/">https://www.centurylinkquote.com/</a>
+<br>
+<br>
+      <a href="https://web.archive.org/web/20070928164540/http://www.hedge-hog.com/sub/bells.html">https://web.archive.org/web/20070928164540/http://www.hedge-hog.com/sub/bells.html</a>
+<br>
+<br>
+    <a href="https://www.technipages.com/fiber-vs-copper-internet#:~:text=A%20copper%2Dbased%20internet%20connection,cables%20to%20transmit%20signals%20instead.">https://www.technipages.com/fiber-vs-copper-internet#:~:text=A%20copper%2Dbased%20internet%20connection,cables%20to%20transmit%20signals%20instead.</a>
+
+</div>
+
+</div>
+
+<!--This section contains the information reflecting on the web page included in
+the gallery section. It is a thin text column on the left side that matched the portfolio pages. -->
+<div class="portdesc">
+  <h3>About This Webpage </h3>
+<p>This web page taught me more about coding a web page and it also taught me more about the internet that supports web design. In this project, I researched an internet service provider, specifically Century Link, and discussed its pros and cons. This is an older web page, which is clear based on the formatting I used. It was one of my first times using distinct divisions, and I also tried out many new CSS styles, including rounded corners and shadowed text. Looking back I think I could have gone into more depth about the company, and maybe use multiple HTML files so that it is not all on the same page. This web page did teach me a lot about the internet, and it also taught be about trying new things in my designs. </p>
+</div>
+
+  </body>
+</html>

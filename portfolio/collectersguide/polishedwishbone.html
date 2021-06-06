@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio: Ring Collection</title>
+  </head>
+
+  <style media="screen">
+    .homepage {
+      color: #fffdf0;
+      background-color: #a6e3d9;
+      font-family: "Verdana", sans serif;
+      margin-left: 60px;
+      margin-right: 60px;
+    }
+  </style>
+
+<!-- This style is used to define the title portion,
+specfically giving it a larger font size than the other styles. -->
+<style media="screen">
+  .title {
+    color:#a6e3d9;
+    background-color: #fffdf0;
+    font-family: "Verdana", sans serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 33px;
+    margin-top: 30px;
+    margin bottom: 30px;
+  }
+</style>
+
+<style media="screen">
+  .darkbackground {
+    color: #fffdf0;
+    background-color: #a6e3d9;
+    font-family: "Verdana", sans serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin bottom: 30px;
+  }
+</style>
+
+<style media="screen">
+  .lightbackground {
+    color: #a6e3d9;
+    background-color: #fffdf0;
+    font-family: "Verdana", sans serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin bottom: 30px;
+  }
+</style>
+
+<!--This style is used to separate the main webpage that was created from the rest
+of the portfolio, this is done with a border and sizing to keep it within a certain area.-->
+<style media="screen">
+  .embeded {
+    width: 67%;
+    border-style: solid;
+    border-color: #3D5A80;
+    border-width: 3px;
+    float: right;
+  }
+</style>
+
+<!--This section is used to define the look of the column where each portfolio
+entry is explained, it colors the section, gives it borders, font, and sizes it. -->
+<style media="screen">
+  .portdesc {
+    width: 30%;
+    border-style: solid;
+    border-color: #3D5A80;
+    border-width: 3px;
+    background-color: #98C1D9;
+    color: #293241;
+    font-family: "Times New Roman", Times, serif;
+    float: left;
+    padding: 5px;
+  }
+</style>
+
+
+<!--This creates the naviagation bar at the top of the webpage, from the portfolio
+ itself that lets users nagigate from the gallery to the other web pages. -->
+ <style>
+.porttopnav {
+  background-color: #98C1D9;
+  overflow: hidden;
+}
+</style>
+
+<style>
+/*This section specifies the look of the text within the naviagtion bar of the
+portfolio, it mostly covers font and color (looks), and also aligns it in the right location. */
+.porttopnav a {
+  float: left;
+  display: block;
+  color: #3D5A80;
+  text-align: center;
+  background-color: #98C1D9;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  font-size: 15px;
+}
+</style>
+
+<style>
+/*This syyle is used to create the main title of the portfolio page itself, the
+margins, fonts, and colors and choosen here. */
+.porttitle {
+  color: #EE6C4D;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  margin-left: 26px;
+  margin-right: 26px;
+  margin-top: 26px;
+  margin bottom: 26px;
+  padding: 6px;
+}
+</style>
+
+<style>
+/* This style refers the look of the main portfolio navigation bar sections after being hovered
+over, the background color of the boxes is the main change. */
+.porttopnav a:hover {
+  background-color: #EE6C4D;
+  color: #293241;
+}
+</style>
+
+<style>
+/*This div is used to define the look of the smaller text below the title, more
+ importantly it is animated to rotate through different colors. */
+.portani {
+  font-family: "Times New Roman", Times, serif;
+  color: #3D5A80;
+  animation-name: color;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+/*This is the specifc code for the color animation, it switches the text color between three differnt shades of blue. */
+@keyframes color {
+  0%   {color: #3D5A80;}
+  40%  {color: #98C1D9;}
+  80%  {color: #293241;}
+}
+
+</style>
+
+  <!--This section creates the main title of the portfolio itself and the web page as a whole -->
+<div class="porttitle">
+  <center> <h1>My Portfolio</h1>
+</div>
+<!-- This section creates smaller italicized text centered below the main title showing
+the author of the post. It also rotates between colors indefinitely using an animation. -->
+    <div class="portani">
+      <center> <i> <h2> By Morgan Eby</h2> </i> </center>
+    </div>
+
+<!-- This is the naviagation bar at the top, it simply takes around the Portfolio to all the different sections. -->
+    <div class="porttopnav">
+      <a href="../porthome.html">Home</a>
+      <a href="../portgallery.html">Gallery</a>
+      <a href="../portsource.html">Contact</a>
+    </div>
+
+  <br>
+
+<!--This div is used to separate the web page on the gallery from the portfolio itself, the entire original page is in here contained within a border. -->
+<div class="embeded">
+
+
+  <body>
+
+<div id=homepage class="homepage">
+  <a href="./ringcollection.html"> Go Back to the Main Page! </a>
+
+</div>
+
+<div class="title">
+   <h2> Polished Wishbone Ring </h2>
+</div>
+
+<div id=overview class="darkbackground">
+  <img src="simple.jpg" align="right" width="240" height="400">
+  <h2> Overview </h2>
+  <p> Info goes here </p>
+</div>
+
+<div id=incollection class="lightbackground">
+  <h2> Place in Collection </h2>
+  <p> place in collection here </p>
+
+</div>
+
+</div>
+<!--This section contains the information reflecting on the web page included in
+the gallery section. It is a thin text column on the left side that matched the portfolio pages. -->
+<div class="portdesc">
+  <h3>About This Webpage </h3>
+<p>This web pages was created to demonstrate the use of relative links and having multiple HTML files come together to be one web page. I choose to do this by creating a page that describes my ring collection. This was also one of my first times using CSS styles with distinct divisions and formatting. I tried out using borders, new fonts, and tables. It is a lot simpler than a web page I would make today and harder to navigate because there is no real navigation bar. Looking back something I would have done differently given those skills would be choosing colors that are easier to read. I also. Would have taken some more time to space the photos so that they look more organized. This web page does a good job at having multiple pages all with a cohesive style and meaning for being my first time trying to do that. </p>
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+<!--This section changes the name of the web page in the tab itself, it also connects the page to the style sheet used. -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="port.css">
+    <title>Morgan Eby Portfolio</title>
+  </head>
+
+  <body>
+<!--This section creates the main title of the portfolio itself and the web page as a whole -->
+    <div class="porttitle">
+      <center> <h1>My Portfolio</h1>
+    </div>
+<!-- This section creates smaller italicized text centered below the main title showing
+the author of the post. It also rotates between colors indefinitely using an animation. -->
+    <div class="portani">
+      <center> <i> <h2> By Morgan Eby</h2> </i> </center>
+    </div>
+
+      <!-- This is the naviagation bar at the top, it simply takes around the Portfolio to all the different sections. -->
+        <div class="porttopnav">
+          <a href="./porthome.html">Home</a>
+          <a href="./portgallery.html">Gallery</a>
+          <a href="./portsource.html">Contact</a>
+        </div>
+
+    <br>
+
+<!-- This section is a normal body text section that is aligned to the right side
+of the page, it mainly includes a form for a user to fill out to contact me.
+There are three text based questions that are supported by the java script below. -->
+<div class="portwords">
+
+<h3>Want to contact me about my Web Design work? Fill out this form!</h3>
+
+<!-- This question asks the user to type in there name, this is the one that will
+ be mainly used later in the java script. -->
+  <form class="contact" action="index.html" method="post">
+    <label for="name">What is your name?</label>
+<br>
+          <input type="text" name="username" id="name">
+<br>
+<br>
+<!-- This question asks the user to type in there email, as this would be important
+ information in a real contact situation. -->
+    <label for="contact">What is your Email?</label>
+<br>
+          <input type="text" name="contact" id="contact">
+<br>
+<br>
+
+<!-- This question leaves a type box open for the user to write whatever message they want. -->
+    <label for="message">Message:</label>
+<br>
+          <input type="text" name="message" id="message">
+<br>
+<br>
+    <input type="button" value="Submit" onclick="showInput();">
+  </form>
+</div>
+
+<div class="portdesc">
+  <img src="codepic.png" width="400" height="600">
+</div>
+
+<!-- This div only appears when a user submits the form above, it is almost identical
+ with a light blue background. A span element is used to put the users name into the sentance. -->
+<div class="portanswers" id="portanswers">
+  <p>Thank you <span id="customername"></span>, I will reach out to you shortly regarding your message.</p>
+</div>
+
+<script language="JavaScript">
+
+    function showInput() {
+
+/*This section changes the portanswers element to be dispayed after being submitted,
+ the box with text shows up after the submit button is clicked. */
+        var r = document.getElementById('portanswers');
+        r.style.display = "block";
+
+/*This section fills in the "span" section from above with what the user typed in as there name. */
+        document.getElementById('customername').innerHTML =
+                    document.getElementById("name").value;
+
+/*This alert pops up after the form is submitted to let the user know that the data went through. */
+alert("Your Message was submitted successfully")
+
+        }
+</script>
